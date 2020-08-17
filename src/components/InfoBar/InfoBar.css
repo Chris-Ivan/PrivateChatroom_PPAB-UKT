@@ -31,3 +31,9 @@ h3 {
 .onlineIcon {
   margin-right: 5%;
 }
+
+@media (max-width: 1200px) {
+  .infoBar {
+    border-radius: 0;
+  }
+}

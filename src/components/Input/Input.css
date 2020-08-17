@@ -30,3 +30,12 @@ select:focus {
   border-radius: 0 0 20px 0;
   width: 20%;
 }
+
+@media (max-width: 1200px) {
+  .input {
+    border-radius: 0;
+  }
+  .sendButton {
+    border-radius: 0;
+  }
+}
