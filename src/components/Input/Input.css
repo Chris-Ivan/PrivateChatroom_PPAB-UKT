@@ -31,11 +31,18 @@ select:focus {
   width: 20%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .input {
     border-radius: 0;
+    font-size: 0.9rem;
   }
   .sendButton {
     border-radius: 0;
+    font-size: 0.9rem;
+  }
+  .form {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
   }
 }
