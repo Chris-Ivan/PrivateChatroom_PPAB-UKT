@@ -23,7 +23,11 @@
   display: flex;
   justify-content: flex-end;
   padding: 0 5%;
-  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.messageContainer:last-child {
+  margin-bottom: 10px;
 }
 
 .sentText {
