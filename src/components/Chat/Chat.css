@@ -36,6 +36,6 @@
     margin-right: 0;
   }
   .container {
-    background: rgba(15, 15, 15, 0);
+    background: rgba(15, 15, 15, 0.8);
   }
 }
