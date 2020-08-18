@@ -8,7 +8,7 @@
 
 .textContainerOnline {
   background-color: rgb(36, 36, 36);
-  height: 80px;
+  height: 70px;
   padding: 5px 40px;
   width: 100%;
   border-radius: 30px 30px 0 0;
@@ -30,7 +30,7 @@
   padding-left: 10px;
 }
 
-@media (min-width: 320px) and (max-width: 1200px) {
+@media (max-width: 1000px) {
   .textContainer {
     display: none;
   }

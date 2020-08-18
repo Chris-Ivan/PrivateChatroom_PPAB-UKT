@@ -12,44 +12,38 @@ const Join = () => {
         <h1 className="heading">
           PPAB UKT <br /> Private Chatroom
         </h1>
-        <form
-          onKeyPress={(e) =>
-            name && room && e.key === "Enter" ? setRoom(e.target.value) : null
-          }
-        >
-          <div>
-            <input
-              type="text"
-              placeholder="username"
-              className="joinInput"
-              onChange={(e) => {
-                setName(e.target.value);
-              }}
-            />
-          </div>
-          <div>
-            <input
-              type="text"
-              placeholder="room"
-              className="joinInput mt-20"
-              onChange={(e) => {
-                setRoom(e.target.value);
-              }}
-            />
-          </div>
-          <Link
-            onClick={(e) => {
-              if (!name || !room) {
-                e.preventDefault();
-              }
+        <div>
+          <input
+            type="text"
+            placeholder="username"
+            className="joinInput"
+            onChange={(e) => {
+              setName(e.target.value);
             }}
-            to={`/chat?name=${name}&room=${room}`}
-          >
-            <button className="button mt-20" type="submit">
-              Enter
-            </button>
-          </Link>
-        </form>
+          />
+        </div>
+        <div>
+          <input
+            type="text"
+            placeholder="room"
+            className="joinInput mt-20"
+            onChange={(e) => {
+              setRoom(e.target.value);
+            }}
+          />
+        </div>
+        <Link
+          onClick={(e) => {
+            if (!name || !room) {
+              e.preventDefault();
+            }
+          }}
+          to={`/chat?name=${name}&room=${room}`}
+        >
+          <button className="button mt-20" type="submit">
+            Enter
+          </button>
+        </Link>
       </div>
     </div>
   );

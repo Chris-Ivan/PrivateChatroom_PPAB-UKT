@@ -17,8 +17,8 @@ const Chat = ({ location }) => {
   const [users, setUsers] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "https://private-chatroom-ppab-ukt-20.herokuapp.com/";
-  // const ENDPOINT = "localhost:5000";
+  // const ENDPOINT = "https://private-chatroom-ppab-ukt-20.herokuapp.com/";
+  const ENDPOINT = "localhost:5000";
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
@@ -58,13 +58,17 @@ const Chat = ({ location }) => {
     <div className="outerContainer">
       <TextContainer users={users} />
       <div className="container">
-        <InfoBar room={room} />
-        <Messages messages={messages} name={name} />
-        <Input
-          message={message}
-          setMessage={setMessage}
-          sendMessage={sendMessage}
-        />
+        <div className="upperContainer">
+          <InfoBar room={room} />
+        </div>
+        <div className="lowerContainer">
+          <Messages messages={messages} name={name} />
+          <Input
+            message={message}
+            setMessage={setMessage}
+            sendMessage={sendMessage}
+          />
+        </div>
       </div>
     </div>
   );

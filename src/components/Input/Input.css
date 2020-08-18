@@ -1,5 +1,6 @@
 .form {
   display: flex;
+  width: 100%;
 }
 
 .input {
@@ -8,7 +9,7 @@
   border-radius: 0 0 0 20px;
   padding: 0 0 0 30px;
   width: 80%;
-  font-size: 1.2em;
+  font-size: 1em;
   background-color: rgb(36, 36, 36);
 }
 
@@ -19,7 +20,7 @@ select:focus {
 }
 
 .sendButton {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
@@ -31,7 +32,7 @@ select:focus {
   width: 20%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 640px) {
   .input {
     border-radius: 0;
     font-size: 0.9rem;

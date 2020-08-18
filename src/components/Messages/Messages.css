@@ -2,9 +2,11 @@
   overflow: auto;
   flex: auto;
   top: 0;
+  height: 100%;
+  width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 640px) {
   .messages {
     width: 100%;
     position: fixed;

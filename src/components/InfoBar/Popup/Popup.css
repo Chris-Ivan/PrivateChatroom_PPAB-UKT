@@ -1,0 +1,27 @@
+.popupContainer {
+  background: rgba(114, 24, 24, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.leftPopupContainer {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  padding: 0 5px 0 5px;
+}
+
+.leftPopupContainer p {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.rightPopupContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px;
+  cursor: pointer;
+}
