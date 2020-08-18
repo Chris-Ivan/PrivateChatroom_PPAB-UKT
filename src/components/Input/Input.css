@@ -42,6 +42,7 @@ select:focus {
     font-size: 0.9rem;
   }
   .form {
+    position: fixed;
     bottom: 0%;
     width: 100%;
   }
