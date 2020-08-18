@@ -8,9 +8,7 @@
 
 @media (max-width: 640px) {
   .messages {
-    width: 100%;
-    position: fixed;
-    top: 70px;
     bottom: 60px;
+    padding-bottom: 0;
   }
 }

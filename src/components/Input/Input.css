@@ -10,7 +10,7 @@
   padding: 0 0 0 30px;
   width: 80%;
   font-size: 1em;
-  background-color: rgb(36, 36, 36);
+  background-color: rgba(36, 36, 36, 1);
 }
 
 input:focus,
@@ -24,7 +24,7 @@ select:focus {
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #721818;
+  background: rgba(114, 24, 24, 1);
   padding: 20px;
   display: inline-block;
   border: none;
@@ -42,7 +42,6 @@ select:focus {
     font-size: 0.9rem;
   }
   .form {
-    position: fixed;
     bottom: 0%;
     width: 100%;
   }

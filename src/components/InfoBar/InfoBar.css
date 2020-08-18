@@ -35,8 +35,5 @@ h3 {
 @media (max-width: 640px) {
   .infoBar {
     border-radius: 0;
-    position: fixed;
-    top: 0%;
-    z-index: 10;
   }
 }
