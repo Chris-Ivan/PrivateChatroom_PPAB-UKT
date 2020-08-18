@@ -50,6 +50,7 @@
 
 @media (max-width: 640px) {
   .upperContainer {
+    padding-top: 70px;
     padding-bottom: 60px;
   }
 }
