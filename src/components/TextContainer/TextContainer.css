@@ -15,8 +15,7 @@
 }
 
 .activeContainer {
-  margin-bottom: 50%;
-  padding: 5px 20px;
+  padding: 10px 10px 20px 20px;
   background-color: rgba(15, 15, 15, 0.8);
   border-radius: 0 0 30px 30px;
 }
@@ -24,6 +23,7 @@
 .activeItem {
   display: flex;
   align-items: center;
+  height: 35px;
 }
 
 .activeContainer img {
