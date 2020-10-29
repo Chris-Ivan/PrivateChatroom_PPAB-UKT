@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Chatroom WebApp [Frontend]
+![chatroom-home](https://i.ibb.co/pjcq6QK/chatroom-home-min.jpg)
 
-## Available Scripts
+### Introduction
+A simple database-less chat web app created for fun. I initially was following a [Youtube tutorial](https://www.youtube.com/watch?v=ZwFA3YMfkoc&ab_channel=JavaScriptMastery) by [Javascript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A) before I decided to change the whole CSS and add a notification bar at the chatroom page. This is the main repository containing the frontend side off the web app code. The backend repository is available [here](https://github.com/Chris-Ivan/PrivateChatroom_PPAB-UKT_BE). I hosted the frontend on [Netlify](https://nervous-spence-8fbc52.netlify.app/) and the backend on [Heroku](https://private-chatroom-ppab-ukt-20.herokuapp.com/).<br>
+<b>Technologies:</b> ReactJS, Socket.io, Netlify, Heroku
 
-In the project directory, you can run:
+### Demo
+The website is now live on [https://nervous-spence-8fbc52.netlify.app/](https://nervous-spence-8fbc52.netlify.app/)(Updated 29/10/2020). To use the chatroom, just fill in the username and room name from the landing page. You will be redirected to the main chatroom page. Have fun!
+![chatroom-main](https://i.ibb.co/bFTHGL5/chatroom-main-min.jpg)
 
-### `npm start`
+### What I Changed
+- Overwrote most of the CSS with custom images and adapt the design to fit the design theme of the organization I'm in.
+- Added a responsive design for mobile
+- Add a simple notification bar for the chatroom.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Setup
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- install [NodeJS](https://nodejs.org/en/) and [Git](https://git-scm.com/) (if you haven't)
+- `git clone https://github.com/Chris-Ivan/PrivateChatroom_PPAB-UKT` the repository, then `cd` into the directory cloned.
+- `npm install` to install all the dependencies
+- `npm start` to run the app in the development mode
