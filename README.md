@@ -12,7 +12,7 @@ The website is now live on [https://nervous-spence-8fbc52.netlify.app/](https://
 ### What I Changed
 - Overwrote most of the CSS with custom images and adapt the design to fit the design theme of the organization I'm in.
 - Added a responsive design for mobile
-- Add a simple notification bar for the chatroom.
+- Added a simple notification bar for the chatroom.
 
 ### Setup
 
